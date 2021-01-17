@@ -50,9 +50,10 @@ def run
   help 
   user_response =""
   
-  while user_response
-  puts "Please enter a command:"
-  user_response = 
+  while user_response do
+    puts "Please enter a command:"
+    user_response = gets.strip
+  
   end
   
   
