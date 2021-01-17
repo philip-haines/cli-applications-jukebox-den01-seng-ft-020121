@@ -48,15 +48,13 @@ end
 
 def run
   puts "Please enter a command:"
-  user_response = "help"
+  user_response = 1
   
-  while user_response != "exit" do 
-    if user_response == "help"
-      help
-      binding.pry
-    else break 
-   end
+  if user_response == 1
+    exit_jukebox
+    binding.pry
   end
+  
   
 end
 
