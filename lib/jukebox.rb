@@ -47,12 +47,13 @@ def exit_jukebox
 end
 
 def run(songs)
-  input = ""
+  user_response = ""
   
-  while input
+  while user_response
     puts "Please enter a command:"
-    input = gets.downcase.strip
-    case input
+    user_response = gets.downcase.strip
+    
+    case user_response
     when 'list'
       list(songs)
     when 'play'
@@ -66,6 +67,7 @@ def run(songs)
     else
       help
     end
+    
   end
 end 
 
