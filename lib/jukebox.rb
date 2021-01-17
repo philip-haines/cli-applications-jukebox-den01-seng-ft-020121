@@ -55,7 +55,8 @@ def run
     user_response = gets.strip
     
     case user_response
-    when 
+    when "help"
+      help
   
   end
   
