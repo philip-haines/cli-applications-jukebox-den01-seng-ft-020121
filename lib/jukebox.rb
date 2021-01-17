@@ -51,6 +51,7 @@ def run
   user_response =""
   
   while user_response
+  puts ""
   user_response = 
   end
   
