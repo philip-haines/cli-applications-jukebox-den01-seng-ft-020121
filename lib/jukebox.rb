@@ -54,9 +54,8 @@ def run
     puts "Please enter a command:"
     user_response = gets.strip
     
-    if user_response == "help"
-      help
-    elsif
+    case user_response
+    when 
   
   end
   
