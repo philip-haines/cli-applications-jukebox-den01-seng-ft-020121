@@ -47,11 +47,11 @@ def exit_jukebox
 end
 
 def run
-  puts "Please enter a command:"
-  user_response = 1
+  help 
+  user_response =""
   
-  if user_response == 1
-    exit_jukebox
+  while user_response
+  user_response = 
   end
   
   
