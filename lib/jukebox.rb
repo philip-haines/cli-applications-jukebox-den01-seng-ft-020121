@@ -47,6 +47,7 @@ def exit_jukebox
 end
 
 def run
+  
   help 
   user_response =""
   
@@ -55,18 +56,17 @@ def run
     user_response = gets.strip
     
     case user_response
-    when "help"
-      help
     when "list"
       list(songs)
     when "play"
       play(songs)
     when "exit"
       exit_jukebox
+    else
+      help
+      break
     end
   
   end
-  
-  
 end
 
