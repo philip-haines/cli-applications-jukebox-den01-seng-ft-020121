@@ -53,7 +53,7 @@ def run
   
   while user_response 
     puts "Please enter a command:"
-    user_response = gets.strip
+    user_response = gets.downcase.strip
     
     case user_response
     when "list"
