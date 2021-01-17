@@ -50,9 +50,13 @@ def run
   help 
   user_response =""
   
-  while user_response do
+  while user_response 
     puts "Please enter a command:"
     user_response = gets.strip
+    
+    if user_response == "help"
+      help
+    elsif
   
   end
   
