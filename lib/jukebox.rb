@@ -51,7 +51,7 @@ def run
   user_response =""
   
   while user_response
-  puts ""
+  puts "Please enter a command:"
   user_response = 
   end
   
