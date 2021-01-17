@@ -51,7 +51,6 @@ def run
   user_response = 1
   
   if user_response == 1
-    binding.pry
     exit_jukebox
   end
   
